@@ -12,7 +12,7 @@ export default function Home() {
             ideia em realidade.
           </p>
         </div>
-        <div class="mt-6 lg:mt-0 lg:w-1/2">
+        <div class="mt-5 lg:mt-0 lg:w-1/2">
           <img
             src="/Perfil.jpg"
             alt="Luca"

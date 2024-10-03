@@ -11,7 +11,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/rafael-porto-annunciato-751512265"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md hover:text-blue-950"
+            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md transition duration-300 hover:text-blue-950"
           >
             <FaLinkedin />
             <span className="hidden ms-4 lg md:block">Linkedin</span>
@@ -22,7 +22,7 @@ export default function Footer() {
             href="https://www.instagram.com/rafaportann__/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md hover:text-blue-950"
+            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md transition duration-300 hover:text-blue-950"
           >
             <RiInstagramFill />
             <span className="hidden ms-4 lg md:block">Instagram</span>
@@ -33,7 +33,7 @@ export default function Footer() {
             href="https://github.com/RafaelPA13"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md hover:text-blue-950"
+            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md transition duration-300 hover:text-blue-950"
           >
             <FaGithub />
             <span className="hidden ms-4 lg md:block">Github</span>

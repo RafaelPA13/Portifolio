@@ -1,7 +1,28 @@
+import tech from "../data/tech.json";
+
+import CardTech from "../components/CardTech";
+
 export default function About() {
-    return (
-        <>
-            <h1>About</h1>
-        </>
-    )
+  return (
+    <div className="p-7 flex flex-col gap-5 h-dvh overflow-auto">
+      <h1 className="text-blue-900 text-3xl font-bold">Sobre Mim</h1>
+      <p className="font-medium text-lg">
+        Sou Rafael, tenho 18 anos e sou um amante da tecnologia. Desde criança,
+        sempre tive interesse em entender como as coisas funcionavam ou como
+        eram feitas, principalmente quando se tratava de artigos tecnológicos,
+        jogos, consoles, computadores ou celulares. Foi então que decidi estudar
+        TI, para que eu pudesse trabalhar com o que mais gosto. Atualmente,
+        estou cursando Engenharia de Software na FIAP. Além disso, concluí o
+        Ensino Médio Técnico em Tecnologia também na FIAP e tenho me aventurado
+        em cursos da Alura. Meu principal objetivo hoje é conseguir ingressar e
+        trabalhar na área.
+      </p>
+      <h1 className="text-blue-900 text-3xl font-bold">Tecnologias</h1>
+      <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {tech.map((t) => (
+          <CardTech key={t.id} {...t} />
+        ))}
+      </div>
+    </div>
+  );
 }

@@ -20,7 +20,7 @@ export default function Header() {
         <li>
           <Link
             to={"/sobre"}
-            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md hover:text-blue-950"
+            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md transition duration-300 hover:text-blue-950"
           >
             <FaInfoCircle />
             <span className="hidden ms-4 lg md:block">Sobre</span>
@@ -29,7 +29,7 @@ export default function Header() {
         <li>
           <Link
             to={"/contato"}
-            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md hover:text-blue-950"
+            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md transition duration-300 hover:text-blue-950"
           >
             <MdMessage />
             <span className="hidden ms-4 lg md:block">Contato</span>
@@ -38,7 +38,7 @@ export default function Header() {
         <li>
           <Link
             to={"/projetos"}
-            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md hover:text-blue-950"
+            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md transition duration-300 hover:text-blue-950"
           >
             <GrProjects />
             <span className="hidden ms-4 lg md:block">Projetos</span>

@@ -1,18 +1,46 @@
 import { Link } from "react-router-dom";
 
+import { FaInfoCircle } from "react-icons/fa";
+import { MdMessage } from "react-icons/md";
+import { GrProjects } from "react-icons/gr";
+
 export default function Header() {
   return (
-    <header>
-      <Link to={"/"}>Home</Link>
-      <ul>
+    <header className="w-20 lg:w-60 h-screen p-5 pt-8 bg-blue-950">
+      <Link to={"/"}>
+        <img
+          src="/logo_portifolio.png"
+          alt="logo"
+          className="cursor-pointer duration-500"
+        />
+      </Link>
+      <ul className="pt-6 gap-1">
         <li>
-          <Link to={"/sobre"}>Sobre</Link>
+          <Link
+            to={"/sobre"}
+            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md hover:text-blue-950"
+          >
+            <FaInfoCircle />
+            <span className="hidden ms-4 lg:block">Sobre</span>
+          </Link>
         </li>
         <li>
-          <Link to={"/contato"}>Contato</Link>
+          <Link
+            to={"/contato"}
+            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md hover:text-blue-950"
+          >
+            <MdMessage />
+            <span className="hidden ms-4 lg:block">Contato</span>
+          </Link>
         </li>
         <li>
-          <Link to={"/projetos"}>Projetos</Link>
+          <Link
+            to={"/projetos"}
+            className="text-gray-300 text-xl font-semibold flex items-center cursor-pointer p-2 hover:bg-slate-400 rounded-md hover:text-blue-950"
+          >
+            <GrProjects />
+            <span className="hidden ms-4 lg:block">Projetos</span>
+          </Link>
         </li>
       </ul>
     </header>

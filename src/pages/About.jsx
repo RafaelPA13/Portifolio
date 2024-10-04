@@ -4,7 +4,7 @@ import CardTech from "../components/CardTech";
 
 export default function About() {
   return (
-    <div className="p-7 flex flex-col gap-5 h-dvh overflow-auto">
+    <div className="bg-gradient-to-r from-gray-300 p-7 flex flex-col gap-5 h-screen overflow-auto">
       <h1 className="text-blue-900 text-3xl font-bold">Sobre Mim</h1>
       <p className="font-medium text-lg">
         Sou Rafael, tenho 18 anos e sou um amante da tecnologia. Desde criança,

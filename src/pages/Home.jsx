@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="h-screen bg-gradient-to-r from-gray-300 flex items-center overflow-hidden">
+    <div className="h-screen bg-gradient-to-r from-gray-300 flex items-center">
       <div className="w-full px-4 lg:flex lg:items-center lg:justify-between">
         <div className="lg:w-1/2">
           <h4 className="font-medium text-gray-800">Olá, Sou Rafael 👋</h4>

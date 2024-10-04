@@ -7,6 +7,7 @@ import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Projects from "./pages/Projects.jsx";
+import DetailProject from "./pages/DetailProject.jsx";
 
 import "./index.css";
 
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       { path: "sobre", element: <About /> },
       { path: "contato", element: <Contact /> },
       { path: "projetos", element: <Projects /> },
+      { path: "projetos/:id", element: <DetailProject /> },
     ],
   },
 ]);

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nome": "Adivinhe o Número",
+    "tecnologias": [
+      { "tech": "HTML", "classe": "bg-orange-600" },
+      { "tech": "CSS", "classe": "bg-blue-600" },
+      { "tech": "JavaScript", "classe": "bg-yellow-500" }
+    ],
+    "imagem": "/adivinhe_o_numero.png",
+    "descricao": "O jogador terá 10 chances para adivinhar um número sorteado entre 0 e 1000. Caso erre o palpite, será informado se o número digitado é maior ou menor que o sorteado. Se acertar, receberá uma mensagem de parabéns, mas, se errar todas as tentativas, será informado que perdeu o jogo e poderá tentar novamente.",
+    "linkTeste": "https://rafaelpa13.github.io/Adivinhe-o-numero/",
+    "linkRepositorio": "https://github.com/RafaelPA13/Adivinhe-o-numero.git"
+  },
+  {
+    "id": 2,
+    "nome": "App Clima",
+    "tecnologias": [
+      { "tech": "HTML", "classe": "bg-orange-600" },
+      { "tech": "CSS", "classe": "bg-blue-600" },
+      { "tech": "JavaScript", "classe": "bg-yellow-500" }
+    ],
+    "imagem": "/app_clima.png",
+    "descricao": "O usuário pode pesquisar a temperatura, umidade e velocidade do vento de diversas cidades ao redor do mundo, seja utilizando a barra de pesquisa ou as opções listadas nos botões abaixo. Este projeto utiliza a API OpenWeather para consultar as informações.",
+    "linkTeste": "https://app-clima-five-psi.vercel.app",
+    "linkRepositorio": "https://github.com/RafaelPA13/App-clima.git"
+  },
+  {
+    "id": 3,
+    "nome": "Consulta Tabela FIPE",
+    "tecnologias": [
+      { "tech": "Java", "classe": "bg-yellow-600" },
+      { "tech": "Spring", "classe": "bg-green-600" }
+    ],
+    "imagem": "/consulta_tabela_fipe.png",
+    "descricao": "Esta é uma aplicação back-end, cujo a utilidade seria de pesquisar os valores médios de veículos como carros, motos e caminhões de acordo com a tabela FIPE, o projeto foi criado utilizando Java e o framwork spring, e consulta as informações por meio da API FIPE API HTTP REST.",
+    "linkTeste": "",
+    "linkRepositorio": "https://github.com/RafaelPA13/Consulta_Tabela_FIPE.git"
+  },
+  {
+    "id": 4,
+    "nome": "Consulta CEP",
+    "tecnologias": [{ "tech": "Java", "classe": "bg-yellow-600" }],
+    "imagem": "/consulta_cep.png",
+    "descricao": "Esta é uma aplicação back-end, onde o usuário pode pesquisar endereços por meio do Código de Endereçamento Postal (CEP). O projeto consulta as informações por meio da API ViaCEP.",
+    "linkTeste": "",
+    "linkRepositorio": "https://github.com/RafaelPA13/Consulta_CEP.git"
+  },
+  {
+    "id": 5,
+    "nome": "Lista de Tarefas",
+    "tecnologias": [{ "tech": "React", "classe": "bg-blue-400" }],
+    "imagem": "/lista_de_tarefas.png",
+    "descricao": "Uma aplicação de gerenciamento de tarefas com um sistema de autenticação. O usuário pode criar uma conta no sistema, além de criar, atualizar e deletar suas próprias tarefas. Este projeto utiliza o framework React, Firebase Authentication e Firestore.",
+    "linkTeste": "https://lista-de-tarefas-xi-one.vercel.app",
+    "linkRepositorio": "https://github.com/RafaelPA13/lista_de_tarefas.git"
+  }
+]

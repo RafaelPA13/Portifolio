@@ -16,7 +16,7 @@ export default function Projects() {
   );
 
   return (
-    <div className="w-full h-screen bg-gradient-to-r from-gray-300 p-7 flex flex-col items-center gap-5">
+    <div className="w-full h-screen bg-gradient-to-r from-gray-300 p-7 flex flex-col items-center gap-5 overflow-scroll lg:overflow-hidden">
       <h1 className="w-full text-5xl text-blue-900 font-bold text-left">
         Projetos
       </h1>

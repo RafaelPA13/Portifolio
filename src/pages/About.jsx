@@ -1,6 +1,7 @@
 import tech from "../data/tech.json";
 
 import CardTech from "../components/CardTech";
+import DownloadButton from "../components/DowloadButton";
 
 export default function About() {
   return (
@@ -22,6 +23,10 @@ export default function About() {
         {tech.map((t) => (
           <CardTech key={t.id} {...t} />
         ))}
+      </div>
+      <div className="flex flex-col gap-3 lg md:flex-row">
+        <h1 className="text-blue-900 text-3xl font-bold">Quer saber um pouco mais:</h1>
+        <DownloadButton />
       </div>
     </div>
   );

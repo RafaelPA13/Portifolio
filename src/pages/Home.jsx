@@ -15,7 +15,7 @@ export default function Home() {
         <div class="mt-5 lg:mt-0 lg:w-1/2">
           <img
             src="/Perfil.jpg"
-            alt="Luca"
+            alt="Minha foto"
             className="w-full h-auto rounded-lg lg:h-svh"
           />
         </div>

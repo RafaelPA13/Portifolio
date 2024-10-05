@@ -1,5 +1,5 @@
 import { useState } from "react";
-import porjects from "../data/projects.json";
+import projects from "../data/projects.json";
 
 import ButtonTech from "../components/ButtonTech";
 import CardProject from "../components/CardProject";
@@ -11,12 +11,12 @@ export default function Projects() {
     setLanguage(tech);
   };
 
-  const filterProjects = porjects.filter((project) =>
+  const filterProjects = projects.filter((project) =>
     project.tecnologias.some((tech) => tech.tech === language)
   );
 
   return (
-    <div className="w-full h-screen bg-gradient-to-r from-gray-300 p-7 flex flex-col items-center gap-5 overflow-scroll">
+    <div className="w-full h-screen bg-gradient-to-r from-gray-300 p-7 flex flex-col items-center gap-5">
       <h1 className="w-full text-5xl text-blue-900 font-bold text-left">
         Projetos
       </h1>
@@ -43,9 +43,9 @@ export default function Projects() {
           <ButtonTech tech={"Todos"} getValue={getValue} />
         </li>
       </ul>
-      <ul className="w-2/3 grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <ul className="w-full grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {language === "Todos"
-          ? porjects.map((project) => (
+          ? projects.map((project) => (
               <CardProject key={project.id} {...project} />
             ))
           : filterProjects.map((project) => (

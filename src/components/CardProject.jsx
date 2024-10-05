@@ -10,8 +10,8 @@ export default function CardProject({ id, nome, imagem, tecnologias }) {
       <h2 className="text-xl font-semibold text-blue-900 my-3">{nome}</h2>
       <ul className="flex flex-wrap gap-3">
         {tecnologias.map((tecnologia) => (
-          <li key={tecnologia.tech}>
-            <span className={`${tecnologia.classe} text-white font-semibold p-2 rounded-lg`}>{tecnologia.tech}</span>
+          <li key={tecnologia}>
+            <span className={'bg-indigo-600 text-white font-semibold p-2 rounded-lg'}>{tecnologia}</span>
           </li>
         ))}
       </ul>

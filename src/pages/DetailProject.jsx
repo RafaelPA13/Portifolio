@@ -26,11 +26,9 @@ export default function DetailProject() {
                 </h1>
                 <ul className="flex gap-3">
                   {project.tecnologias.map((tecnologia) => (
-                    <li key={tecnologia.tech}>
-                      <span
-                        className={`${tecnologia.classe} text-white font-semibold p-2 rounded-lg`}
-                      >
-                        {tecnologia.tech}
+                    <li key={tecnologia}>
+                      <span className="bg-indigo-600 text-white font-semibold p-2 rounded-lg">
+                        {tecnologia}
                       </span>
                     </li>
                   ))}

@@ -11,7 +11,7 @@ export default function CardProject({ id, nome, imagem, tecnologias }) {
       <ul className="flex flex-wrap gap-3">
         {tecnologias.map((tecnologia) => (
           <li key={tecnologia}>
-            <span className={'bg-indigo-600 text-white font-semibold p-2 rounded-lg'}>{tecnologia}</span>
+            <span className={'bg-indigo-600 text-white p-2 rounded-lg'}>{tecnologia}</span>
           </li>
         ))}
       </ul>

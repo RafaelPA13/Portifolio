@@ -12,7 +12,7 @@ export default function Projects() {
   };
 
   const filterProjects = projects.filter((project) =>
-    project.tecnologias.some((tech) => tech.tech === language)
+    project.tecnologias.some((tech) => tech === language)
   );
 
   return (

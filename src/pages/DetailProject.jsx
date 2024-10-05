@@ -61,9 +61,11 @@ export default function DetailProject() {
       <h1 className="text-3xl text-blue-900 font-bold">Outros Projetos</h1>
       <ul>
         <ul className="w-full grid gap-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
-          {projects.map((project) => (
-            <CardProject key={project.id} {...project} />
-          ))}
+          {projects
+            .filter((project) => project.id != id)
+            .map((project) => (
+              <CardProject key={project.id} {...project} />
+            ))}
         </ul>
       </ul>
     </div>

@@ -5,11 +5,10 @@ export default function Home() {
         <div className="lg:w-1/2">
           <h4 className="font-medium text-gray-800">Olá, Sou Rafael 👋</h4>
           <h1 className="text-5xl font-bold text-blue-900 mt-2">
-            Engenheiro de Software
+            Estudante em enhenharia de software
           </h1>
           <p className="text-gray-600 mt-4">
-            Sou um engenheiro de software e estou pronto para tranforma a sua
-            ideia em realidade.
+            Estou pronto para tranformar a sua ideia em realidade.
           </p>
         </div>
         <div class="mt-5 lg:mt-0 lg:w-1/2">

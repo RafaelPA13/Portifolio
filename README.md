@@ -13,6 +13,10 @@ Bem-vindo ao meu portfólio pessoal desenvolvido com **React.JSX** e **Tailwind 
 - **JavaScript (ES6+)**: Para a lógica e funcionalidades da aplicação.
 - **JSON**: Utilizado para organizar e fornecer os dados dos projetos.
 - **LocalStorage**: Armazenamento de dados local para o filtro de projetos por linguagem.
+- **Vite**: Ferramenta de build rápida para o desenvolvimento do projeto.
+- **React Router Dom**: Gerenciamento de rotas da aplicação.
+- **React Icons**: Biblioteca de ícones para componentes React.
+- **EmailJS**: Integração para envio de e-mails diretamente pelo front-end.
 
 ## 📚 Funcionalidades
 

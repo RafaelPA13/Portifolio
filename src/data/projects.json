@@ -43,5 +43,14 @@
     "descricao": "Uma aplicação de gerenciamento de tarefas com um sistema de autenticação. O usuário pode criar uma conta no sistema, além de criar, atualizar e deletar suas próprias tarefas. Este projeto utiliza o framework React, Firebase Authentication e Firestore.",
     "linkTeste": "https://lista-de-tarefas-xi-one.vercel.app",
     "linkRepositorio": "https://github.com/RafaelPA13/lista_de_tarefas.git"
+  },
+  {
+    "id": 6,
+    "nome": "Sistema de cadastro e remoção de lixo",
+    "tecnologias": ["Python"],
+    "imagem": "/Sistema-de-cadastro-e-remocao-de-lixo.avif",
+    "descricao": "Este projeto realiza o cadastro e a remoção dos lixos encontrados nos oceanos fornecidos pelos usuários, como plástico, vidro, metal e madeira, os tipos mais encontrados no ecossistema marítimo. O sistema garante que apenas itens não numéricos sejam adicionados ou removidos das respectivas listas.",
+    "linkTeste": "",
+    "linkRepositorio": "https://github.com/RafaelPA13/Sistema-de-cadastro-e-remocao-de-lixo.git"
   }
 ]

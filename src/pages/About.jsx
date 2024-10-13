@@ -20,7 +20,7 @@ export default function About() {
     },
     {
       curso: "Certificado Java Criando sua primeira aplicacao",
-      certificado: "../../public/Certificado_Java_Criando_sua_primeira_aplicacao.png"
+      certificado: "/Certificado_Java_Criando_sua_primeira_aplicacao.png"
     },
     {
       curso: "Certificado Java Trabalhando com lambdas streams Spring Framework",

@@ -7,7 +7,7 @@ export default function DetailProject() {
   const { id } = useParams();
 
   return (
-    <div className="bg-gradient-to-r from-gray-300 p-5 flex flex-col gap-5 h-screen overflow-scroll lg:overflow-hidden">
+    <div className="bg-gradient-to-r from-gray-300 p-5 flex flex-col gap-5 h-screen overflow-scroll">
       {projects
         .filter((project) => project.id == id)
         .map((project) => (

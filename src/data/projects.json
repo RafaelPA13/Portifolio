@@ -52,5 +52,14 @@
     "descricao": "Este projeto realiza o cadastro e a remoção dos lixos encontrados nos oceanos fornecidos pelos usuários, como plástico, vidro, metal e madeira, os tipos mais encontrados no ecossistema marítimo. O sistema garante que apenas itens não numéricos sejam adicionados ou removidos das respectivas listas.",
     "linkTeste": "",
     "linkRepositorio": "https://github.com/RafaelPA13/Sistema-de-cadastro-e-remocao-de-lixo.git"
+  },
+  {
+    "id": 7,
+    "nome": "E-racingBet",
+    "tecnologias": ["React"],
+    "imagem": "/e-racing-bet.png",
+    "descricao": "Bem-vindo ao E-RacingBet, uma plataforma de apostas gratuitas focada em corridas de Fórmula E. Os usuários podem fazer palpites sobre os resultados de várias categorias, como corredores no pódio, equipe com mais pontos, primeiro piloto a entrar nos boxes, e mais. Os melhores classificados no ranking ao final da temporada ganham prêmios em créditos de carbono!",
+    "linkTeste": "https://e-racing-bet.vercel.app",
+    "linkRepositorio": "https://github.com/RafaelPA13/E-racingBet.git"
   }
 ]

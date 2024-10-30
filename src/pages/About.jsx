@@ -30,6 +30,10 @@ export default function About() {
       curso: "Certificado Java Trabalhando com listas e colecoes de dados",
       certificado: "/Certificado_Java_Trabalhando_com_listas_e_colecoes_de_dados.png"
     },
+    {
+      curso: "Certificado Excel Domine o Editor de Planilhas",
+      certificado: "/Certificado_Excel_Domine_o_Editor_de_Planilhas.png"
+    },
   ]
 
   return (

@@ -40,7 +40,7 @@ export default function About() {
     <div className="bg-gradient-to-r from-gray-300 p-7 flex flex-col gap-5 h-screen overflow-auto">
       <h1 className="text-blue-900 text-3xl font-bold">Sobre Mim</h1>
       <p className="font-medium text-lg">
-        Olá! Sou Rafael, tenho 18 anos e uma paixão de longa data por
+        Olá! Sou Rafael, tenho 19 anos e uma paixão de longa data por
         tecnologia. Atualmente, sou estudante de Engenharia de Software na FIAP
         e concluí o Ensino Médio Técnico em Tecnologia na mesma instituição.
         Durante minha formação, desenvolvi uma sólida base em programação e
